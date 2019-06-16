@@ -1,0 +1,19 @@
+{
+  "name": "angular-cli-learn",
+  "version": "1.0.0",
+  "description": "This project helps in learning the angular-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeltsinGit/angular-cli-learn.git"
+  },
+  "author": "Leon Yalin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeltsinGit/angular-cli-learn/issues"
+  },
+  "homepage": "https://github.com/yeltsinGit/angular-cli-learn#readme"
+}
