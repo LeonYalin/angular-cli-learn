@@ -3,6 +3,7 @@ import generateANewApp from 'src/learn/generateANewApp';
 import generateBlueprints from 'src/learn/generateBlueprints';
 import generateRoutingFeatures from 'src/learn/generateRoutingFeatures';
 import buildingAndServing from 'src/learn/buildingAndServing';
+import runningUnitAndE2eTetst from 'src/learn/runningUnitAndE2eTests';
 
 @Component({
   selector: 'app-root',
@@ -17,5 +18,6 @@ export class AppComponent implements OnInit {
     generateBlueprints();
     generateRoutingFeatures();
     buildingAndServing();
+    runningUnitAndE2eTetst();
   }
 }
