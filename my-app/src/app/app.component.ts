@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import generateANewApp from 'src/learn/generateANewApp';
+import generateBlueprints from 'src/learn/generateBlueprints';
+import generateRoutingFeatures from 'src/learn/generateRoutingFeatures';
+import buildingAndServing from 'src/learn/buildingAndServing';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +14,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     generateANewApp();
+    generateBlueprints();
+    generateRoutingFeatures();
+    buildingAndServing();
   }
 }
