@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { LoggerService } from 'my-lib';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PersonComponent } from './person/person.component';
@@ -48,7 +49,7 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
     MatPaginatorModule,
     MatSortModule
   ],
-  providers: [],
+  providers: [LoggerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
